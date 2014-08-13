@@ -25,8 +25,9 @@
     // list indicates to just test against the default (latest)
     // version.
     "matrix": {
+        "Cython": [],
         "numpy": ["1.8"],
-        "astropy": ["0.4.0"],
+        "astropy": ["0.4.0"]
     },
 
     // The directory (relative to the current directory) that benchmarks are
