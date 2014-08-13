@@ -1,18 +1,4 @@
 {
-    "benchmarks.TimeSuite.mem_bilinear": {
-        "code": "def mem_bilinear(self):\n    reproject(self.hdu_in, self.header_out_size, projection_type='bilinear')\n",
-        "name": "benchmarks.TimeSuite.mem_bilinear",
-        "timeout": 60.0,
-        "type": "memory",
-        "unit": "bytes"
-    },
-    "benchmarks.TimeSuite.mem_flux_conserving": {
-        "code": "def mem_flux_conserving(self):\n    reproject(self.hdu_in, self.header_out_size, projection_type='flux-conserving')\n",
-        "name": "benchmarks.TimeSuite.mem_flux_conserving",
-        "timeout": 60.0,
-        "type": "memory",
-        "unit": "bytes"
-    },
     "benchmarks.TimeSuite.time_bilinear": {
         "code": "def time_bilinear(self):\n    reproject(self.hdu_in, self.header_out_size, projection_type='bilinear')\n",
         "goal_time": 2.0,
