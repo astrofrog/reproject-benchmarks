@@ -1,0 +1,23 @@
+{
+    "benchmarks.TimeSuite.time_bilinear": {
+        "code": "def time_bilinear(self):\n    reproject(self.hdu_in, self.header_out_size, projection_type='bilinear')\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.TimeSuite.time_bilinear",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.TimeSuite.time_flux_conserving": {
+        "code": "def time_flux_conserving(self):\n    reproject(self.hdu_in, self.header_out_size, projection_type='flux-conserving')\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.TimeSuite.time_flux_conserving",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "version": 1
+}

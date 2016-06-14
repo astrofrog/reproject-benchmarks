@@ -1,0 +1,29 @@
+{
+    "commit_hash": "9a3a6dd0347b6d3833abedebcbc5ce86dd99d726", 
+    "date": 1406068287000, 
+    "params": {
+        "Cython": "0.20.2", 
+        "arch": "x86_64", 
+        "astropy": "0.4.2", 
+        "cpu": "Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz", 
+        "machine": "tom-mac-mini", 
+        "numpy": "1.9", 
+        "os": "MacOS X 10.8", 
+        "python": "2.7", 
+        "ram": 8589934592, 
+        "scipy": "0.14"
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "Cython": "0.20.2", 
+        "astropy": "0.4.2", 
+        "numpy": "1.9", 
+        "scipy": "0.14"
+    }, 
+    "results": {
+        "benchmarks.TimeSuite.time_bilinear": 0.08824300000000007, 
+        "benchmarks.TimeSuite.time_flux_conserving": 7.635691999999999
+    }, 
+    "version": 1
+}

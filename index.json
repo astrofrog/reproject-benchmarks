@@ -1,0 +1,93 @@
+{
+    "benchmarks": {
+        "benchmarks.TimeSuite.time_bilinear": {
+            "code": "def time_bilinear(self):\n    reproject(self.hdu_in, self.header_out_size, projection_type='bilinear')\n", 
+            "goal_time": 2.0, 
+            "name": "benchmarks.TimeSuite.time_bilinear", 
+            "number": 0, 
+            "repeat": 3, 
+            "timeout": 60.0, 
+            "type": "time", 
+            "unit": "seconds"
+        }, 
+        "benchmarks.TimeSuite.time_flux_conserving": {
+            "code": "def time_flux_conserving(self):\n    reproject(self.hdu_in, self.header_out_size, projection_type='flux-conserving')\n", 
+            "goal_time": 2.0, 
+            "name": "benchmarks.TimeSuite.time_flux_conserving", 
+            "number": 0, 
+            "repeat": 3, 
+            "timeout": 60.0, 
+            "type": "time", 
+            "unit": "seconds"
+        }
+    }, 
+    "date_to_hash": {
+        "1406067707000": "8125c4f2", 
+        "1406067846000": "2f278384", 
+        "1406068255000": "88f2c987", 
+        "1406068287000": "9a3a6dd0", 
+        "1406117564000": "f9d7c627", 
+        "1412025538000": "fa1e8242", 
+        "1412605790000": "33b2a053", 
+        "1413461139000": "64cbc0f9", 
+        "1413536078000": "fd338250", 
+        "1413536873000": "1036442e", 
+        "1413536977000": "ca0559df", 
+        "1413546765000": "66dd0f54", 
+        "1413825158000": "3b3a9012", 
+        "1414049572000": "95a3d432", 
+        "1416955752000": "2396be0d", 
+        "1417879305000": "75a39808", 
+        "1418681628000": "b4a34731", 
+        "1418684890000": "813f062c"
+    }, 
+    "machines": {
+        "tom-mac-mini": {
+            "arch": "x86_64", 
+            "cpu": "Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz", 
+            "machine": "tom-mac-mini", 
+            "os": "MacOS X 10.8", 
+            "ram": 8589934592, 
+            "version": 1
+        }
+    }, 
+    "params": {
+        "Cython": [
+            "0.20.2"
+        ], 
+        "arch": [
+            "x86_64"
+        ], 
+        "astropy": [
+            "0.4.2"
+        ], 
+        "cpu": [
+            "Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz"
+        ], 
+        "machine": [
+            "tom-mac-mini"
+        ], 
+        "numpy": [
+            "1.9"
+        ], 
+        "os": [
+            "MacOS X 10.8"
+        ], 
+        "python": [
+            "2.7"
+        ], 
+        "ram": [
+            8589934592
+        ], 
+        "scipy": [
+            "0.14"
+        ]
+    }, 
+    "project": "reproject", 
+    "project_url": "http://reproject.readthedocs.org/", 
+    "show_commit_url": "http://github.com/astrofrog/reproject/commit/", 
+    "tags": {
+        "v0.1": 1413825158000, 
+        "v0.2": 1446081738000
+    }
+}
